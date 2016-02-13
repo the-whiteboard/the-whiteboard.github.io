@@ -10,7 +10,7 @@ title: The Whiteboard
 description: > # this means to ignore newlines until "baseurl:"
   The whiteboard is the chatroom of Programmers.StackExchange site.
   Topics range from coffee to software design and everything in between.
-  Have you accepted Haskell into your home, and into your heart?
+  Have you accepted Haskell into your home and into your heart?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://http://the-whiteboard.github.io" # the base hostname & protocol for your site
 github_username:  the-whiteboard
