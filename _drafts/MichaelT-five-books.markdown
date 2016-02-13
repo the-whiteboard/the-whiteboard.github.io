@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  The Five Books of MichaelT
-categories: about update blog 
+categories: about update blog
 author:	MichaelT
 ---
 
 # Five books
 
-If you are old enough to remember book stores, you would walk past the 
+If you are old enough to remember book stores, you would walk past the
 computer book shelve (or if you were lucky, shelves, or the *extremely*
 fortunate would find an entire section of the book store dedicated to
 computers and technology).
@@ -18,7 +18,7 @@ are online bookstores and temporary loans, that just doesn't have the
 same accessibility of "open to a random page and see if it looks useful."
 
 Thus, people often ask the classic question of "what do you recommend
-reading?"  
+reading?"
 
 ## [A Pattern Language](http://www.amazon.com/dp/0195019199/)
 
@@ -58,32 +58,32 @@ This is the book that inspired Gamma, Helm, Johnson and Vissides.
 
 By reading *A Pattern Language* you will be able to understand what the
 authors of *Design Patterns* were trying to do and how design patterns
-where intended to work.
+were intended to work.
 
-And its a good book too.  And who knows what else you will find useful in
-it.  Pattern #146 describes flexible office space.  Pattern #148 describes
-the workspace of small work groups.  Pattern #151 is about small meeting
-rooms.  Pattern #152 is the half private office.  These are things that
-everyone who works in today's world of computers and cubes can look at
-and consider how to improve the office with those ideas.
+It's a good book too, who knows what else you will find useful in it.
+Pattern #146 describes a flexible office space.  Pattern #148 describes a
+workspace for small work groups, #151 is about small meeting rooms, #152 is
+a half private office.  Everyone who works in today's world of computers
+and cubes, can use these ideas to conceptualize and consider improvements to
+the office.
 
 # [Programming Pearls](http://www.amazon.com/dp/0201657880/)
 
-There are several things in the book that it has going for it.  The essay
-"Cracking the Oyster" starts out with a simple question of "How do I sort
-a disk file?" which turns out to be probably the earliest documented XY
-problem and now works through the *actual* problem that is being sought.
-(A reading of this one and seeing someone else go through the process of
-trying to figure out the problem should be required text for people who
+There are several things in this book that it has going for it.  The essay
+"Cracking the Oyster" starts out with a simple question: "How do I sort
+a disk file?". This question turns out to be probably the earliest documented
+XY problem and the essay works through the *actual* problem that is being
+sought. (A reading of this one and seeing someone else go through the process
+of trying to figure out the problem should be required text for people who
 keep getting their questions closed as 'unclear' on Stack Overflow
 and Exchange).
 
-The pearls of wisdom that this book provides - in easy to digest short
+The pearls of wisdom that this book provides - are in easy to digest short
 chapters (its original form was that of a column in
 [Communications of the ACM](http://www.bowdoin.edu/~ltoma/teaching/cs340/spring05/coursestuff/Bentley_BumperSticker.pdf)).
-Each chapter stands on its own and is something that you can read quickly
+Each chapter stands on its own, as something that you can read quickly,
 and take away something new from each time you read it.
 
 Many of the problems, puzzles, and the solution to these puzzles are ones
-that interviewers will ask.  Even the ones that interviewers *don't* ask,
-looking at the process of how to solve a problem can be invaluable.
+that interviewers will ask.  Even looking at the process of how to solve the
+problems interviewers *don't* ask, can be invaluable.
