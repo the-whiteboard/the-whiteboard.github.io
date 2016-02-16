@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  The Five Books of MichaelT
-categories: about update blog
+categories: book review
 author:	MichaelT
 ---
 
