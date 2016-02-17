@@ -23,7 +23,7 @@ from the classic classics. They are wonderful books, and others may
 indeed recommend them for their value (and I'll admit to slipping one
 of them on here).  I'm trying to name the books that you will not
 necessarily have seen on the end-caps in the computer section of the
-book store.  I'm admitting to being that guy who came up with the
+book store.  I'm admitting to wanting to be that guy who came up with the
 eclectic mix tape that made you think a bit more than the classic
 rock mix tape (that really rocks).
 
