@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+[The Whiteboard](https://chat.stackexchange.com/rooms/21/the-whiteboard) is a gathering of programmers from around the world interested in <s>discussing</s> investigating every aspect of software development.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[The Whiteboard Blog](https://the-whiteboard.github.io) exists to provide a place for contributions and content which do not fit the rigorous standards of the [Programmers.StackExchange](https://programmers.stackexchange.com/questions) site.
