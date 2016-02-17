@@ -2,7 +2,8 @@
 layout: post
 title:  "An unofficial blog"
 date:   2016-02-11 21:06:13 -0600
-categories: about update blog 
+categories: about
+tags:	[blog, about, meta]
 author:	MichaelT
 ---
 
