@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Five Books Every Programmer Should Read (MichaelT)
-date:   2016-02-16 20:56:50 -0600
+title:  Five languages to know (MichaelT)
+date:   2016-02-19 17:49:26 -0600
 categories: language
 author:	MichaelT
 ---
@@ -26,6 +26,7 @@ Java
 Groovy
 
 # Because it is
+
 ## C
 
 There isn't too much to be said for C. It is. It is a consistent and
@@ -56,6 +57,7 @@ understanding will serve you will in all other languages you will
 find yourself working in.
 
 # An assembly or machine language
+
 ## Java Bytecode
 
 Once again drawing from my college days, a prerequisite for many other
@@ -89,6 +91,7 @@ someone who is getting into programming. The JVM is not an easy place
 to start (go back to my mention of the 6502 or MIPS).
 
 # A Lisp
+
 ## Clojure
 
 There are many functional languages out there. Some I still can't
@@ -107,6 +110,7 @@ don't let you do otherwise - and you can't even *write* the code to
 look like one's "native" language.
 
 # Something for the resume
+
 ## Java
 
 You'll note a trend here. I do not work at Oracle. What I do believe
@@ -137,6 +141,7 @@ So learn Java because it will get you a job that has a bit more
 job security to it.
 
 # A scripting language
+
 ## Groovy
 
 There are two reasons to point at to learn a "scripting" language.
