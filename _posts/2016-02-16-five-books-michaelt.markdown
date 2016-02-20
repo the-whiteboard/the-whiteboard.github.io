@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Five Books Every Programmer Should Read (MichaelT)
+title:  Five books every programmer should read
 date:   2016-02-16 20:56:50 -0600
 categories: book review
 author:	MichaelT

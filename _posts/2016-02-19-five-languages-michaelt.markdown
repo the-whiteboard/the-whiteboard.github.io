@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Five languages to know (MichaelT)
+title:  Five languages to know
 date:   2016-02-19 17:49:26 -0600
 categories: language
 author:	MichaelT
