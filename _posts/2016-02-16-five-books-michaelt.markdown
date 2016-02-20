@@ -6,7 +6,7 @@ categories: book review
 author:	MichaelT
 ---
 
-# Five books
+## Five books
 
 If you are old enough to remember book stores, you would walk past the
 computer book shelf (or if you were lucky, shelves, or the *extremely*
@@ -28,7 +28,7 @@ book store.  I'm admitting to wanting to be that guy who came up with the
 eclectic mix tape that made you think a bit more than the classic
 rock mix tape (that really rocks).
 
-## [A Pattern Language](http://www.amazon.com/dp/0195019199/)
+### [A Pattern Language](http://www.amazon.com/dp/0195019199/)
 
 The first thing that will come to mind when seeing that title is "ug,
 another book on patterns." Or maybe "I thought it was named *Design Patterns -
@@ -75,7 +75,7 @@ a half private office.  Everyone who works in today's world of computers
 and cubes, can use these ideas to conceptualize and consider improvements to
 the office.
 
-# [Programming Pearls](http://www.amazon.com/dp/0201657880/)
+## [Programming Pearls](http://www.amazon.com/dp/0201657880/)
 
 There are several things in this book that it has going for it.  The essay
 "Cracking the Oyster" starts out with a simple question: "How do I sort
@@ -96,7 +96,7 @@ Many of the problems, puzzles, and the solution to these puzzles are ones
 that interviewers will ask.  Even looking at the process of how to solve the
 problems interviewers *don't* ask, can be invaluable.
 
-# [How To Be A Programmer](http://www.amazon.com/Robert-Reads-How-Be-Programmer/dp/1440439869/)
+## [How To Be A Programmer](http://www.amazon.com/Robert-Reads-How-Be-Programmer/dp/1440439869/)
 
 I've often quoted *How to be a Programmer*.  I first found it hosted at
 [samizdat.mines.edu](http://samizdat.mines.edu/howto/HowToBeAProgrammer.html)
@@ -118,7 +118,7 @@ to pull out a kindle app on some device.
 It is a good essay or book however you find it. Just a matter of
 formatting.  And whatever the format, read it.
 
-# [Managing Expectations: Working with People Who Want More, Better, Faster, Sooner, NOW!](http://www.amazon.com/gp/product/B00DY3KQJ0/)
+## [Managing Expectations: Working with People Who Want More, Better, Faster, Sooner, NOW!](http://www.amazon.com/gp/product/B00DY3KQJ0/)
 
 The world of programming isn't only about code.  The previous book review
 touched on that. The other half of the job is working with people.
@@ -139,7 +139,7 @@ jargon with.  We need to make sure we communicate and avoid possible
 conflicts that arise from that communication - and when those conflicts
 do occur, figure out how to resolve them.
 
-# [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698/)
+## [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698/)
 
 The full title is *Slack: Getting Past Burnout, Busywork and the
 Myth of Total Efficiency*.  Quite a mouthful.  It is written by

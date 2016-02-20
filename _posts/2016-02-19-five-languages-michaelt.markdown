@@ -6,7 +6,7 @@ categories: language
 author:	MichaelT
 ---
 
-# Five Languages
+## Five Languages
 
 Many years ago, I took a class titled *theory of programming languages*.
 The class quickly touched on four different programming languages that
@@ -19,15 +19,9 @@ get that program working).
 People keep asking "what are the languages I should know" and everyone
 has their own lists. So... here's mine.
 
-C
-Bytecode
-Clojure
-Java
-Groovy
+## Because it is
 
-# Because it is
-
-## C
+### C
 
 There isn't too much to be said for C. It is. It is a consistent and
 fundamentally *there* programming language. Everywhere you go, you
@@ -56,9 +50,9 @@ need to understand and refine to work efficiently with C.  That
 understanding will serve you will in all other languages you will
 find yourself working in.
 
-# An assembly or machine language
+## An assembly or machine language
 
-## Java Bytecode
+### Java Bytecode
 
 Once again drawing from my college days, a prerequisite for many other
 classes was *assembly language programming*.  Some of them made very real
@@ -90,9 +84,9 @@ say right up front, this is probably the absolute wrong answer for
 someone who is getting into programming. The JVM is not an easy place
 to start (go back to my mention of the 6502 or MIPS).
 
-# A Lisp
+## A Lisp
 
-## Clojure
+### Clojure
 
 There are many functional languages out there. Some I still can't
 get my head around. Trying to explain what a
@@ -109,9 +103,9 @@ I could use a ${functional concept}, but I don't need to.  Lisps
 don't let you do otherwise - and you can't even *write* the code to
 look like one's "native" language.
 
-# Something for the resume
+## Something for the resume
 
-## Java
+### Java
 
 You'll note a trend here. I do not work at Oracle. What I do believe
 is in the synergy of technologies while at the same time exposing one
@@ -140,13 +134,13 @@ is important.
 So learn Java because it will get you a job that has a bit more
 job security to it.
 
-# A scripting language
+## A scripting language
 
-## Groovy
+### Groovy
 
 There are two reasons to point at to learn a "scripting" language.
 
-### For the quick script
+#### For the quick script
 
 You need to quickly do a task. You can do it in whatever shell you
 have available... but they all suck.  Or you can do it in whatever
@@ -158,7 +152,7 @@ could do it in shell and it isn't too bad. But anything beyond a
 dozen lines or so, and you'll wish you were working in a more
 disciplined scripting language.
 
-### You'll find it other places
+#### You'll find it other places
 
 I've found Groovy in several places.  The two most recent ones I've
 interacted with it are in the aptly named 'Groovy console' in
