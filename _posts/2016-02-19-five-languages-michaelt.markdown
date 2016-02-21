@@ -78,7 +78,7 @@ had its [p-code machine](https://en.wikipedia.org/wiki/P-code_machine)
 which pascal was compiled to, and then the p-code machine was an
 interpreter.
 
-LLVM is one way to go. CLI is another. I am going to say I believe there
+LLVM is one way to go. CIL is another. I am going to say I believe there
 is significant value in learning the Java bytecode.  I'm also going to
 say right up front, this is probably the absolute wrong answer for
 someone who is getting into programming. The JVM is not an easy place
@@ -117,7 +117,7 @@ other languages that use the JVM without too much difficulty (it is
 an Eclipse plug in).
 
 This language choice could just have easily been C#.  And then you'd
-have F# and the CLI as previous recommendations. But I've not touched
+have F# and the CIL  as previous recommendations. But I've not touched
 a Microsoft stack in two decades and so I can't properly say "you should
 learn this."
 
