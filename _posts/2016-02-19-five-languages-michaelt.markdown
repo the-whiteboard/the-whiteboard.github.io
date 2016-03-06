@@ -99,7 +99,7 @@ have flirted with functional languages of Scala or Ruby or might have
 done a lambda in Python or a closure in Javascript... Going to a
 Lisp language takes a commitment of thought and rethinking how
 to think about processing.  Thats because it is so easy to say "yea,
-I could use a ${functional concept}, but I don't need to.  Lisps
+I could use a ${functional concept}, but I don't need to."  Lisps
 don't let you do otherwise - and you can't even *write* the code to
 look like one's "native" language.
 
