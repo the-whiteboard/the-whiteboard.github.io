@@ -110,8 +110,7 @@ data, it takes more time for me to reason through the full systemic effect
 of the original section of code.
 
 * **Short stacks**
-
-When a code section calls into methods which call into methods which call
+ When a code section calls into methods which call into methods which call
 into methods until you have a very high chain of behaviours being executed,
 the code becomes very difficult to reason about. This goes back to the point
 about `Small scope` - each section of code called by a single section is yet
