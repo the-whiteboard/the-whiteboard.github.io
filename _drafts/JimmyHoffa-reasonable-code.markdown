@@ -139,9 +139,9 @@ No one language will cause these characteristics, no one framework, library, or
 technology will force them to occur. No matter what you are writing your code
 with, you can effect these characteristics into it and practice attentiveness to
 how well you and others can reason about your code, how well you and others can
-reason about your system, and how as a result it becomes easy to reason about
-how you will implement new changes; from bug fixes to enhancements, your ability
-to see where and how you will effect these changes will improve drastically.
+reason about your system, and as a result it becomes easy to reason about how
+you will implement new changes; from bug fixes to enhancements, your ability to
+see where and how you will effect these changes will improve drastically.
 
 The characteristics I listed above are in no way comprehensive - or even
 necessarily always accurate! The important point is to pay attention to the
