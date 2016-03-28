@@ -86,22 +86,19 @@ have personally found makes code more `Reasonable`, such that I can complete the
 act of `Reasoning` as defined above on the code with greater ease, speed, and
 accuracy than code where these characteristics are not present.
 
-* **Small scope**
-
- When a code section touches very few things outside of it's own scope, up to
+* **Small scope**  
+When a code section touches very few things outside of it's own scope, up to
 and including nothing outside of it's own scope, this makes reasoning
 through the sections entire behaviour far quicker and my resultant
 understanding of the code vastly more accurate.
 
-* **Dictating instead of deciding**
-
- When a code section has very few logical decisions, rather is actively dictating
+* **Dictating instead of deciding**  
+When a code section has very few logical decisions, rather is actively dictating
 what it will do without querying data to decide one way or another, the code
 is often far more reasonable.
 
-* **Explicit data use**
-
- When a code section is very explicit and specific in what data it is taking
+* **Explicit data use**  
+When a code section is very explicit and specific in what data it is taking
 as input, what it is doing to said data, and what data it is outputting, my
 ability to reason through the completeness of it's behaviour is often far
 more accurate than when data is implicitly touched. For instance, if the
@@ -109,18 +106,16 @@ section of code makes a call to another section which implicitly changes
 data, it takes more time for me to reason through the full systemic effect
 of the original section of code.
 
-* **Short stacks**
-
- When a code section calls into methods which call into methods which call
+* **Short stacks**  
+When a code section calls into methods which call into methods which call
 into methods until you have a very high chain of behaviours being executed,
 the code becomes very difficult to reason about. This goes back to the point
 about `Small scope` - each section of code called by a single section is yet
 another piece of the scope you must understand to fully reason about the
 original section of code.
 
-* **Explicit data ownership**
-
- When a code section makes clear that it *owns* the data it is interacting with
+* **Explicit data ownership**  
+When a code section makes clear that it *owns* the data it is interacting with
 such that said data is completely inaccessible to other sections, it becomes
 natural to reason through any changes you might make as you can be confident you
 need not look at any other code section with concern for how you may be altering
@@ -128,9 +123,8 @@ it's behaviours. Using data that is only local, or data that is values rather
 than references are but two simple ways to ensure the data you are interacting
 with will not effect other code sections for instance.
 
-* **Explicit outputs**
-
- When a code section uses it's data in an explicit manner, and makes explicit
+* **Explicit outputs**  
+When a code section uses it's data in an explicit manner, and makes explicit
 what data it owns and doesn't own, it will often cause all outputs of the
 section to be explicit as well. This is extremely helpful in reasoning about
 what the code sections consumers are relying on and expecting.
