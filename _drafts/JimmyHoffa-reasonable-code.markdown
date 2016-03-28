@@ -130,7 +130,7 @@ with will not effect other code sections for instance.
 
 * **Explicit outputs**
 
-When a code section uses it's data in an explicit manner, and makes explicit
+ When a code section uses it's data in an explicit manner, and makes explicit
 what data it owns and doesn't own, it will often cause all outputs of the
 section to be explicit as well. This is extremely helpful in reasoning about
 what the code sections consumers are relying on and expecting.
