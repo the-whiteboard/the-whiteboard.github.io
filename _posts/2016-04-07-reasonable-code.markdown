@@ -87,17 +87,17 @@ act of `Reasoning` as defined above on the code with greater ease, speed, and
 accuracy than code where these characteristics are not present.
 
 * **Small scope**
- When a code section touches very few things outside of its own scope, up to
+When a code section touches very few things outside of its own scope, up to
 and including nothing outside of its own scope, this makes reasoning
 through the sections entire behaviour far quicker and the understanding
 I have of the code vastly more accurate.
 
 * **Dictating instead of deciding**
- When a code section has very few logical decisions, but rather is actively dictating
+When a code section has very few logical decisions, but rather is actively dictating
 what it will do without querying data to decide one way or another, the code
 is often far more reasonable.
 
-* **Explicit data use**  
+* **Explicit data use**
 When a code section is very explicit and specific in what data it is taking
 as input, what it is doing to said data, and what data it is outputting, my
 ability to reason through the completeness of its behaviour is often far
@@ -106,7 +106,7 @@ section of code makes a call to another section which implicitly changes
 data, it takes more time for me to reason through the full systemic effect
 of the original section of code.
 
-* **Short stacks**  
+* **Short stacks**
 When a code section calls into methods which call into methods which call
 into methods until you have a very high chain of behaviours being executed,
 the code becomes very difficult to reason about. This goes back to the point
@@ -115,7 +115,7 @@ another piece of the scope you must understand to fully reason about the
 original section of code.
 
 * **Explicit data ownership**
- When a code section makes clear that it *owns* the data it is interacting with
+When a code section makes clear that it *owns* the data it is interacting with
 so that its data is completely inaccessible to other sections, it becomes
 natural to reason through any changes you might make as you can be confident you
 need not look at any other code section with concern for how you may be altering
@@ -124,7 +124,7 @@ rather than references are two simple ways to ensure the data you are interactin
 with will not affect other code sections.
 
 * **Explicit outputs**
- When a code section uses its data in an explicit manner and makes explicit
+When a code section uses its data in an explicit manner and makes explicit
 what data it owns and doesn't own, it will often cause all outputs of the
 section to be explicit as well. This is extremely helpful in reasoning about
 what the code sections consumers are relying on and expecting.
