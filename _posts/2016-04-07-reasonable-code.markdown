@@ -129,7 +129,6 @@ what data it owns and doesn't own, it will often cause all outputs of the
 section to be explicit as well. This is extremely helpful in reasoning about
 what the code sections consumers are relying on and expecting.
 
-
 The value in focusing on making your code reasonable is quite significant. You
 will end up with code that is easy for new developers to pick up and
 start editing. The code will be easier to integrate with other code, easier to
