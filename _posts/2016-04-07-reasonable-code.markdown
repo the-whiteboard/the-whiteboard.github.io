@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Reasonable code
-date:   2016-03-27 11:57:26 -0600
+date:   2016-04-07 23:33:00 -0600
 categories: coding debugging
 author:	JimmyHoffa
 ---
