@@ -86,7 +86,6 @@ have personally found makes code more `Reasonable`, such that I can complete the
 act of `Reasoning` as defined above on the code with greater ease, speed, and
 accuracy than code where these characteristics are not present.
 
-
 * **Small scope**  
 When a code section touches very few things outside of its own scope, up to
 and including nothing outside of its own scope, this makes reasoning
