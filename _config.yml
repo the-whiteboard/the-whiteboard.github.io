@@ -8,7 +8,8 @@
 # Site settings
 title: The Whiteboard
 description: > # this means to ignore newlines until "baseurl:"
-  The whiteboard is the chatroom of Programmers.StackExchange site.
+  The Whiteboard is a gathering of programmers from around the world
+  interested in investigating every aspect of software development.
   Topics range from coffee to software design and everything in between.
   Have you accepted Haskell into your home and into your heart?
 baseurl: "" # the subpath of your site, e.g. /blog
