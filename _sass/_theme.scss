@@ -1,0 +1,63 @@
+// CSS multi-dimensional is: top right bottom left
+// CSS borders are style(solid|dotted|etc) size color
+@import "base/_mixins";
+
+.whiteboard-title {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.secondary {
+  a {
+    color: $secondary-fg;
+    background: transparent;
+    text-decoration: none;
+    &:active,
+    &:hover {
+      color: $primary-light;
+      text-decoration: underline;
+    }
+  }
+}
+
+.primary {
+  a {
+    color: $secondary-dim;
+    background: transparent;
+    text-decoration: none;
+    &:active,
+    &:hover {
+      color: $secondary-light;
+      text-decoration: underline;
+    }
+  }
+}
+
+.sidebar {
+  margin:10px;
+  a {
+    color: $secondary-fg;
+    background: transparent;
+    text-decoration: none;
+    &:active,
+    &:hover {
+      color: $primary-light;
+      text-decoration: underline;
+    }
+  }
+  nav {
+    a {
+      @extend .col-12, .no-padding;
+      display:block;
+      border-width: 0px 0px 1px 0px;
+      border-style: dotted;
+      border-color: $primary-light;
+    }
+    a:hover {
+      background-color: $primary-dim;
+    }
+  }
+}
+
+body {
+  overflow-y: scroll;
+}

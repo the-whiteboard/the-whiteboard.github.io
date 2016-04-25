@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
-    <div id="container2">
-        <div id="container1">
-            <div id="col1">{% include sidebar.html %}</div>
-            <div id="col2" class="page-content">
-                <div class="wrapper">{{ content }}</div>
-            </div>
-        </div>
+  <body class="primary">
+    <div class="container-full left">
+      <div class="row none-tablet"> <!-- none-tablet just means display:none; on tablet and larger screens -->
+        <div class="col-12 secondary-dim primary-border-bottom">{% include sidebar.html %}</div>
+        <div class="push-1 col-10">{{ content }}</div>
+      </div>
+      <div class="row none block-tablet secondary-dim"> <!-- block-tablet means display:block; on tablet and larger, none means display:none up to
+                                                     all screen sizes. Block-tablet overrides the none when tablet screen or larger. -->
+        <div class="col-4">{% include sidebar.html %}</div>
+        <div class="col-8 primary secondary-glow primary-border-left" style="min-height: 100vh;">{{ content }}</div>
+      </div>
     </div>
   </body>
 </html>

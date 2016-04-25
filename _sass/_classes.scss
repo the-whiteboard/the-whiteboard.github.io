@@ -1,0 +1,150 @@
+/////////////////////////////////////////////////////////////////////
+// CSS multi-dimensional is: top right bottom left
+// CSS borders are style(solid|dotted|etc) size color
+@import "base/_mixins";
+
+.primary {
+  background-color: $primary-bg;
+  color: $primary-fg;
+}
+
+.primary-light {
+  background-color: $primary-light;
+  color: $primary-fg;
+}
+
+.primary-dim {
+  background-color: $primary-dim;
+  color: $primary-fg;
+}
+
+.primary-dim-fg {
+  color: $primary-dim;
+}
+
+.primary-light-fg {
+  color: $primary-light;
+}
+
+.primary-border {
+  border: solid 1px $primary-dim;
+}
+
+.primary-border-top {
+  border: solid 1px $primary-dim;
+  border-width: 1px 0px 0px 0px;
+}
+
+.primary-border-bottom {
+  border: solid 1px $primary-dim;
+  border-width: 0px 0px 1px 0px;
+}
+
+.primary-border-left {
+  border: solid 1px $primary-dim;
+  border-width: 0px 0px 0px 1px;
+}
+
+.primary-border-right {
+  border: solid 1px $primary-dim;
+  border-width: 0px 1px 0px 0px;
+}
+
+.primary-glow {
+  box-shadow: 0 0 4px $primary-light;
+}
+
+.primary:active {
+  @extend .primary-glow, .primary-border;
+}
+
+.primary:focus {
+  @extend .primary-border;
+}
+
+.primary-border:focus {
+  border: solid 1px $primary-light;
+}
+
+.secondary {
+  background-color: $secondary-bg;
+  color: $secondary-fg;
+}
+
+.secondary-light {
+  background-color: $secondary-light;
+  color: $secondary-fg;
+}
+
+.secondary-dim {
+  background-color: $secondary-dim;
+  color: $secondary-fg;
+}
+
+.secondary-light-fg {
+  color: $secondary-light;
+}
+
+.secondary-dim-fg {
+  color: $secondary-dim;
+}
+
+.secondary-border {
+  border: solid 1px $secondary-dim;
+}
+
+.secondary-border-top {
+  border: solid 1px $secondary-dim;
+  border-width: 1px 0px 0px 0px;
+}
+
+.secondary-border-bottom {
+  border: solid 1px $secondary-dim;
+  border-width: 0px 0px 1px 0px;
+}
+
+.secondary-border-left {
+  border: solid 1px $secondary-dim;
+  border-width: 0px 0px 0px 1px;
+}
+
+.secondary-border-right {
+  border: solid 1px $secondary-dim;
+  border-width: 0px 1px 0px 0px;
+}
+
+.secondary-glow {
+  box-shadow: 0 0 3px $secondary-light;
+}
+
+.secondary:active {
+  @extend .secondary-glow, .secondary-border;
+}
+
+.secondary:focus {
+  @extend .secondary-border;
+}
+
+.secondary-border:focus {
+  border: solid 1px $secondary-light;
+}
+
+.rounded {
+  @include border-radius(6px);
+}
+
+.pointed {
+  @include border-radius(0px);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.no-text-selection {
+  @include disable-user-select();
+}
+
+.smooth {
+  transition: all .2s;
+}

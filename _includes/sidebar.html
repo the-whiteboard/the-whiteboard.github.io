@@ -1,24 +1,33 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="/">{{ site.title }}</a>
-      </h1>
-      <p class="lead">{{ site.description }}</p>
+  <div class="row">
+    <div class="col-12 whiteboard-title">
+      <h1><a href="/" class="whiteboard-title">{{ site.title }}</a></h1>
     </div>
-
-    <nav class="sidebar-nav">
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <p>{{ site.description }}</p>
+    </div>
+  </div>
+  <nav class="row">
+    <div class="col-12">
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-	  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a><br/>
-          {% endif %}
-        {% endif %}
+      {% if node.title != null %}
+      {% if node.layout == "page" %}
+      <div class="col-4 col-12-tablet">
+        <a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
+      </div>
+      {% endif %}
+      {% endif %}
       {% endfor %}
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
-    </nav>
+      <div class="col-4 col-12-tablet">
+        <a href="{{ site.github.repo }}">GitHub</a>
+      </div>
+    </div>
+  </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  <div class="col-12" style="padding-top:15px;">
+    <p class="sidebar-copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

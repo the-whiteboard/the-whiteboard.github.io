@@ -166,9 +166,32 @@
  * Page sidebar
  */
 
+.sidebar-nav {
+  text-align: right;
+}
+
 .sidebar-nav-item {
 /*    display: block; */
 /*    line-height: 1.75; */
+}
+
+.sidebar-copyright {
+  position: relative;
+  top: 150px;
+}
+
+.sidebar-nav-item-rule {
+  position: relative;
+  left: 50%;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #777777;
+  width: 50%;
+  margin: 2px;
+  padding: 0px;
+  align: right;
+  line-height: 1px;
+  font-size: 1px;
 }
 
 a.sidebar-nav-item:hover, a.sidebar-nav-item:focus {
@@ -195,11 +218,13 @@ a.sidebar-nav-item:hover, a.sidebar-nav-item:focus {
 }
 
 #col1 {
-    float: left;
-    width: 25%;
-    position: relative;
-    left: 73%;
-    overflow: hidden;
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  width: 25%;
+  /* position: relative; */
+  /*   left: 73%; */
 }
 
 #col2 {

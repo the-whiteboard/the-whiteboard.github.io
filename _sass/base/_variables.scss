@@ -1,0 +1,111 @@
+// ==========================================================================
+// Base – Variables
+// ==========================================================================
+
+$primary-bg: #fff;
+$primary-fg: #000;
+$primary-dim: #96A2A1;
+$primary-light: #D0D7D7;
+
+$secondary-bg: #A2BEBC;
+$secondary-fg: $primary-bg;
+$secondary-dim: #818F8E;
+$secondary-light: #80A7A4;
+
+$my-font-family: 'Helvetica W01 Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$my-bold-font-family: 'Helvetica W01 Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+/* $primary-bg: #fdfdfd; */
+/* $primary-fg: #111; */
+/* $primary-dim: #828282; */
+/* $primary-light: lighten($primary-dim, 35%); */
+
+/* $secondary-bg: #2a7ae2; */
+/* $secondary-fg: #fff; */
+/* $secondary-dim: #1756a9; */
+/* $secondary-light: lighten($secondary-dim, 15%); */
+
+// Global Typography
+$base-background-color:                         $primary-bg;
+$base-font-family:                              $my-font-family;
+$base-font-size:                                16 !default;
+$base-line-height:                              22 !default;
+$base-font-weight:                              400 !default;
+$base-font-color:                               $primary-fg;
+$base-link-color:                               $secondary-dim;
+
+// Font Weights
+$font-100:                                      100 !default;
+$font-200:                                      200 !default;
+$font-300:                                      300 !default;
+$font-400:                                      400 !default;
+$font-500:                                      500 !default;
+$font-600:                                      600 !default;
+$font-700:                                      700 !default;
+$font-800:                                      800 !default;
+$font-900:                                      900 !default;
+
+// Headings
+$heading-font-family:                           $my-bold-font-family; /* sans-serif !default; */
+$h1-font-size:                                  42 !default;
+$h1-line-height:                                48 !default;
+$h1-font-weight:                                $font-400 !default;
+$h1-color:                                      #343434 !default;
+$h2-font-size:                                  26 !default;
+$h2-line-height:                                32 !default;
+$h2-font-weight:                                $font-400 !default;
+$h2-color:                                      #343434 !default;
+$h3-font-size:                                  22 !default;
+$h3-line-height:                                28 !default;
+$h3-font-weight:                                $font-400 !default;
+$h3-color:                                      #343434 !default;
+$h4-font-size:                                  18 !default;
+$h4-line-height:                                24 !default;
+$h4-font-weight:                                $font-400 !default;
+$h4-color:                                      #343434 !default;
+$h5-font-size:                                  16 !default;
+$h5-line-height:                                22 !default;
+$h5-font-weight:                                $font-400 !default;
+$h5-color:                                      #343434 !default;
+$h6-font-size:                                  14 !default;
+$h6-line-height:                                20 !default;
+$h6-font-weight:                                $font-400 !default;
+$h6-color:                                      #343434 !default;
+
+// Blockquotes
+$base-blockquote-font-family:                   sans-serif !default;
+$base-blockquote-font-size:                     22 !default;
+$base-blockquote-line-height:                   28 !default;
+$base-blockquote-color:                         #424242 !default;
+$base-blockquote-cite-color:                    #777 !default;
+
+// Code
+$base-code-font-family:                         'courier new', monospace, serif !default;
+$base-code-font-size:                           13 !default;
+$base-code-line-height:                         18 !default;
+$base-code-color:                               $primary-fg;
+$base-code-background-color:                    $primary-light;
+$base-code-border-color:                        $primary-dim;
+
+// Forms
+$base-placeholder-color:                        $primary-light;
+$base-field-color:                              #222 !default;
+$base-field-border-color:                       #ccc !default;
+$base-field-border-color-focus:                 #f7c723 !default;
+
+// Grid Containers
+$container-mobile:                              100% !default;
+$container-tablet:                              720px !default;
+$container-desktop:                             960px !default;
+$container-hd:                                  1120px !default;
+
+// Grid Gutters
+$grid-gutter:                                   15px !default;
+$grid-gutter-tablet:                            15px !default;
+$grid-gutter-desktop:                           15px !default;
+$grid-gutter-hd:                                15px !default;
+
+// Responsive Breakpoints
+$breakpoint-tablet:                             ($container-tablet + 20) !default;
+$breakpoint-desktop:                            ($container-desktop + 20) !default;
+$breakpoint-hd:                                 ($container-hd + 20) !default;
