@@ -28,19 +28,19 @@ $h1-font-size:                                  42 !default;
 $h1-line-height:                                48 !default;
 $h1-font-weight:                                $font-400 !default;
 $h1-color:                                      #343434 !default;
-$h2-font-size:                                  26 !default;
+$h2-font-size:                                  34 !default;
 $h2-line-height:                                32 !default;
 $h2-font-weight:                                $font-400 !default;
 $h2-color:                                      #343434 !default;
-$h3-font-size:                                  22 !default;
+$h3-font-size:                                  29 !default;
 $h3-line-height:                                28 !default;
 $h3-font-weight:                                $font-400 !default;
 $h3-color:                                      #343434 !default;
-$h4-font-size:                                  18 !default;
+$h4-font-size:                                  24 !default;
 $h4-line-height:                                24 !default;
 $h4-font-weight:                                $font-400 !default;
 $h4-color:                                      #343434 !default;
-$h5-font-size:                                  16 !default;
+$h5-font-size:                                  19 !default;
 $h5-line-height:                                22 !default;
 $h5-font-weight:                                $font-400 !default;
 $h5-color:                                      #343434 !default;
@@ -61,8 +61,8 @@ $base-code-font-family:                         'courier new', monospace, serif 
 $base-code-font-size:                           13 !default;
 $base-code-line-height:                         18 !default;
 $base-code-color:                               $secondary-fg;
-$base-code-background-color:                    $secondary-light;
-$base-code-border-color:                        $primary-dim;
+$base-code-background-color:                    $primary-light;
+$base-code-border-color:                        $secondary-light;
 
 // Forms
 $base-placeholder-color:                        $primary-light;
