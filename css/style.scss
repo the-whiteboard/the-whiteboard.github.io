@@ -9,7 +9,7 @@
 // Version: 2.8.3 - Last Updated: March 23, 2016
 
 ========================================================================== */
-
+@import "palette";
   @import "base/_variables";
 
   @import "base/_mixins";
@@ -57,3 +57,4 @@
 
   @import "_classes";
   @import "_theme";
+  @import "_syntax-highlighting"

@@ -2,43 +2,6 @@
 // Base – Variables
 // ==========================================================================
 
-// From palletton - change as you wish with a straight paste from palleton's "sass" export on color list
-// This pallete from:
-// http://paletton.com/palette.php?uid=20D0u0kllllaFw0g0qFqFg0w0aF
-$color-primary-0: #AA7539;	// Main Primary color */
-$color-primary-1: #FFD8AA;
-$color-primary-2: #D4A36A;
-$color-primary-3: #804E15;
-$color-primary-4: #552E00;
-
-$color-complement-0: #27556C;	// Main Complement color */
-$color-complement-1: #6E91A1;
-$color-complement-2: #477286;
-$color-complement-3: #113C51;
-$color-complement-4: #032536;
-
-$primary-bg: #fff;
-$primary-fg: #000;
-$primary-dim: $color-primary-4;
-$primary-light: $color-primary-0;
-
-$secondary-bg: $color-complement-2;
-$secondary-fg: $primary-bg;
-$secondary-dim: $color-complement-4;
-$secondary-light: $color-complement-0;
-
-///// For a monochrome palette with no complement, use the following:
-/* $primary-dim: $color-primary-3; */
-/* $primary-light: $color-primary-0; */
-
-/* $secondary-bg: $color-primary-2; */
-/* $secondary-fg: $primary-bg; */
-/* $secondary-dim: $color-primary-4; */
-/* $secondary-light: $color-primary-1; */
-
-$my-font-family: 'Helvetica W01 Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$my-bold-font-family: 'Helvetica W01 Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
 // Global Typography
 $base-background-color:                         $primary-bg;
 $base-font-family:                              $my-font-family;
