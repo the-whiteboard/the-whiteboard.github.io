@@ -1,25 +1,26 @@
 ---
 layout: default
 ---
-
-<div class="container">
-  <div clas="row">
-    <div class="col-12">
-      <h3>Posts</h3>
-    </div>
-  </div>
-  {% for post in site.posts %}
-  <div class="row" style="margin-bottom:25px;">
-    <div class="col-12">
-      <h6 class="row primary-dim-fg">{{ post.date | date: "%b %-d, %Y" }}</h6>
-      <div class="row">
-	      <h3 style="margin-top:2px;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<div class="row">
+  <div class="push-1 col-11">
+    <div clas="row">
+      <div class="col-12">
+        <h3>Posts</h3>
       </div>
-	    {% if post.author %}
-      <h6 class="row primary-dim-fg" style="margin-top: 2px;">by: {{ post.author | "unknown" }}</h6>
-	    {% endif %}
     </div>
+    {% for post in site.posts %}
+    <div class="row" style="margin-bottom:25px;">
+      <div class="col-12">
+        <h6 class="row primary-dim-fg">{{ post.date | date: "%b %-d, %Y" }}</h6>
+        <div class="row">
+          <h3 style="margin-top:2px;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        </div>
+        {% if post.author %}
+        <h6 class="row primary-dim-fg" style="margin-top: 2px;">by: {{ post.author | "unknown" }}</h6>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   </div>
-  {% endfor %}
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
