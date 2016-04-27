@@ -121,7 +121,7 @@
   box-shadow: 0 0 3px $secondary-light;
 }
 
-.secondary:active {
+.secondary {
   a:active, input:active, button:active {
     @extend .secondary-glow, .secondary-border;
   }
