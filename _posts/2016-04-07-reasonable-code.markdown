@@ -21,10 +21,10 @@ touch on in everything we do as programmers. Though we frequently interact with
 the concept, reasonability is rarely given a label or defined in any sincere sense. Every
 time we look at code and automatically find ourselves struggling to make out the
 actual semantics, behaviour, and precise functionality of a piece of code
-we're touching on the concept of `Reasonability`. Every time you pick up a piece
+we're touching on the concept of ***Reasonability***. Every time you pick up a piece
 of code you've never seen before and can find all of its actual behaviours
 writ explicitly within that single piece, we are touching on the concept of
-`Reasonability`.
+***Reasonability***.
 
 Reasoning is something we do every day when we have to look at some code and
 decide what it will do, and what it should do. Every time we are writing a piece
