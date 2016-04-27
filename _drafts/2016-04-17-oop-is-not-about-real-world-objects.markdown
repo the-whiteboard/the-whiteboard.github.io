@@ -18,7 +18,8 @@ for ordering pizza. Let's say we want to enter commands like `pizza add "hawaiia
 ASCII art of the pizzas.
 
 The typical "real-world objects" approach might start out by producing some psuedocode like this:
-```
+
+{% highlight c++ %}
 class Pizza {
 	private Topping[];
 	...
@@ -46,7 +47,8 @@ class PepperoniPizza : public Pizza {
     private Topping[] toppings = { Topping::PEPPERONI };
 	...
 }
-```
+{% endhighlight %}
+
 After all, that's basically all of the major objects involved in delivering a real-world pizza, right?
 
 Now imagine this is how far you've gotten in your design when someone asks you one of these questions:
@@ -58,7 +60,8 @@ Now imagine this is how far you've gotten in your design when someone asks you o
 At the moment, there's simply nothing in our pseudocode that would help answer these questions. We'd have to either say we don't know or start making guesses about code we haven't written yet. You might object that we've only jotted down about 30 lines of pseudocode so far, so it's no surprise we can't answer any questions about the system yet. That's why I'm going to show the alternative right now.
 
 If you instead start by thinking about what the program has to do, and sketch what functions will get called with what arguments, you'll might get pseudocode more like this:
-```
+
+{% highlight c++ %}
 int main() {
 	Order currentOrder;
 	Address deliveryAddress;
@@ -83,18 +86,20 @@ void deliverOrder(const Order& order) {
 		std::cout << currentPizza.toASCIIArt() << std::endl;
 	}
 }
-```
+{% endhighlight %}
+
+
 Now let's take a look at those hypothetical questions again.
 
 * **Q:** How do I actually order a pizza?  
-  **A:** You call handleAddPizzaToOrderCommand(), then handleSetDeliveryAddress(), then deliverOrder(). Done.
+  **A:** You call `handleAddPizzaToOrderCommand()`, then `handleSetDeliveryAddress()`, then `deliverOrder()`. Done.
 
 * **Q:** How would we add non-pizza items like drinks or ice cream or movie rentals to this ordering system?  
   **A:** We would add more fields to the Order class, a new handler for non-pizza items, and some extra logic
-  to deliverOrder() to print those items.
+  to `deliverOrder()` to print those items.
 
 * **Q:** How do we ensure we never get asked to deliver to an address over half an hour from our nearest store?  
-  **A:** We'd need to add some code in handleSetDeliveryAddress() that knows where our stores are, and knows how
+  **A:** We'd need to add some code in `handleSetDeliveryAddress()` that knows where our stores are, and knows how
   to calculate distances between our stores and arbitrary addresses.
 
 Is this the best possible way to design a command line pizza app? Probably not. These are just the first things I
