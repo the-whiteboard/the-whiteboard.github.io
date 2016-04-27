@@ -54,12 +54,16 @@
   box-shadow: 0 0 4px $primary-light;
 }
 
-.primary:active {
-  @extend .primary-glow, .primary-border;
+.primary {
+  a:active, input:active, button:active {
+    @extend .primary-glow, .primary-border;
+  }
 }
 
-.primary:focus {
-  @extend .primary-border;
+.primary {
+  a:focus, input:focus, button:focus {
+    @extend .primary-border;
+  }
 }
 
 .primary-border:focus {
@@ -118,11 +122,14 @@
 }
 
 .secondary:active {
-  @extend .secondary-glow, .secondary-border;
+  a:active, input:active, button:active {
+    @extend .secondary-glow, .secondary-border;
+  }
 }
-
-.secondary:focus {
-  @extend .secondary-border;
+.secondary {
+  a:focus, input:focus, button:focus {
+    @extend .secondary-border;
+  }
 }
 
 .secondary-border:focus {
