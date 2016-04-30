@@ -9,8 +9,7 @@ blockquote,
   //  font-style: italic;
   border: solid 1px $primary-dim;
   border-width: 0px 0px 0px 3px;
-  margin: 3em 0;
-  margin-left: 5px;
+  margin: 1.25em 1em;
   padding-left: 5px;
   p {
     @include font-size($base-blockquote-font-size);
