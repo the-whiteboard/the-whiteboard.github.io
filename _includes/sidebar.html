@@ -15,13 +15,13 @@
       {% for node in pages_list %}
       {% if node.title != null %}
       {% if node.layout == "page" %}
-      <div class="col-4 col-12-tablet">
+      <div class="col-12">
         <a href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
       </div>
       {% endif %}
       {% endif %}
       {% endfor %}
-      <div class="col-4 col-12-tablet">
+      <div class="col-12">
         <a href="{{ site.github.repo }}">GitHub</a>
       </div>
     </div>
