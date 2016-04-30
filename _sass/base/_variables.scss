@@ -9,7 +9,7 @@ $base-font-size:                                16 !default;
 $base-line-height:                              22 !default;
 $base-font-weight:                              400 !default;
 $base-font-color:                               $primary-fg;
-$base-link-color:                               $secondary-light;
+$base-link-color:                               $primary-light;
 
 // Font Weights
 $font-100:                                      100 !default;
@@ -50,10 +50,10 @@ $h6-font-weight:                                $font-400 !default;
 $h6-color:                                      #343434 !default;
 
 // Blockquotes
-$base-blockquote-font-family:                   sans-serif !default;
-$base-blockquote-font-size:                     22 !default;
-$base-blockquote-line-height:                   28 !default;
-$base-blockquote-color:                         #424242 !default;
+$base-blockquote-font-family:                   $base-font-family;// sans-serif !default;
+$base-blockquote-font-size:                     $base-font-size;//22 !default;
+$base-blockquote-line-height:                   $base-line-height;//28 !default;
+$base-blockquote-color:                         $primary-fg;//#424242 !default;
 $base-blockquote-cite-color:                    #777 !default;
 
 // Code

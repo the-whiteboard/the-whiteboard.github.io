@@ -6,8 +6,12 @@ blockquote,
   font-family: $base-blockquote-font-family;
   font-weight: $base-font-weight;
   color: $base-blockquote-color;
-  font-style: italic;
+  //  font-style: italic;
+  border: solid 1px $primary-dim;
+  border-width: 0px 0px 0px 3px;
   margin: 3em 0;
+  margin-left: 5px;
+  padding-left: 5px;
   p {
     @include font-size($base-blockquote-font-size);
     @include line-height($base-blockquote-line-height);
@@ -16,8 +20,8 @@ blockquote,
   cite {
     @include font-size($base-font-size - 3);
     @include line-height($base-line-height - 3);
-    font-weight: $font-700;
-    font-style: normal;
+//    font-weight: $font-700;
+//    font-style: normal;
     color: $base-blockquote-cite-color;
   }
 }
