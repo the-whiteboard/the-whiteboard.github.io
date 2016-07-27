@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Don't overload varargs
-categories: java debugging
+categories: java debugging warstory
 author: MichaelT
 ---
 
@@ -124,6 +124,28 @@ A developer changed the method definition and either forgot to
 or was expecting another developer to make the corresponding changes
 in the method invocation.  Add the arguments and everything works.
 
+In the process of going through and refactoring these so that they
+would have a meaningful name, I even found one instance where
+a parameter list was changed from `execute(String, Set<String>)` to
+`execute(String, java.sql.Array)` ... and one of the invocations
+was missed in that change and so `execute(idType, idSet)` was
+suddenly calling the base class method (because it didn't match
+the subclassed method signature). Whats more insidious with this
+particular invocation was that the argument list matched, and
+the stored procedure _was_ called... but because the method was
+expected to be `void` and populating two fields was now quietly
+failing (or succeeding?) and throwing away the data. Looking at
+svn blame, this appears to have been the case for three years.
+
+These errors are immensely difficult to track down (the worst are
+the ones that 'work' and don't throw exceptions - but don't do
+what they're supposed to). The amount of time that gets wasted
+in tracking down bugs from these is much more than just having
+one of those reminders in the back of your head "this is something
+that can go very badly."
+
+Don't overload varargs.
+
 ---
 
 ## So, what could have been done?
@@ -136,7 +158,7 @@ in the future.
 
 But alas, this is _overloading_ not _overriding_ and so the with a
 more careful reading of what the [JLS][jls-final] says,
-`final` _doesn't_ (and can't)  help here.
+`final` _doesn't_ (and can't) help here.
 
 The `final` keyword would prevent someone from declaring a new method
 _with the same argument list_ - that of `execute(Object... params)`.
@@ -154,7 +176,7 @@ up.  Neither PMD nor FindBugs identify this potential hazard either.
 So there's my cautionary tale. Don't overload a varargs method. If
 you do, you're just asking for trouble when someone later does and
 wonders why this code isn't getting run and the errors aren't
-showing up in the right place.
+showing up in the right place - if at all.
 
 [cert-advisory]: https://www.securecoding.cert.org/confluence/display/java/VOID+DCL08-J.+Avoid+ambiguous+overloading+of+varargs+methods
 [spring-docs]: http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/object/StoredProcedure.html
