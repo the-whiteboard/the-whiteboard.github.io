@@ -163,7 +163,7 @@ The O(1) solution? Lets try some forth.
    dup 1 + * 2 / ;
 
 : div-sum ( n1 n2 -- n)
-   swap over / sum * ;
+   tuck / sum * ;
 
 999 3 div-sum
 999 5 div-sum
