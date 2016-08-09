@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  
+title: Project Euler programmer emphasis
 categories: jekyll update
 ---
 
