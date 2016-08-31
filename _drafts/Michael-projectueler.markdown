@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project Euler programmer emphasis
-categories: jekyll update
+categories: code
 ---
 
 [Project Euler][project-euler] is a collection of math problems designed
