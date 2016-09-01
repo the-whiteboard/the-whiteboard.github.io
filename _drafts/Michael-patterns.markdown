@@ -1,0 +1,76 @@
+---
+layout: post
+title: That Pattern rant
+categories: pattern
+---
+
+## Patterns are not building blocks.
+
+I've said it before, and I'll likely say it again.  Patterns are not
+building blocks. They are not things that you should start off with
+thinking "I'll grab a ($diety forbid) Singleton here and a Factory
+there, hook them up with some XML and I'll have a working application."
+
+All too often I see new coders thinking this is the way to write code.
+I'm going to blame the way Patterns and programming as a whole are
+taught. In an data structures class in today's schooling is often along
+the lines of "this assignment is to write a Factory for a Car class"
+and a successful passing grade depends on the student writing something
+that lets them do `carBuilder.setColor("red").setStyle("sedan").build()`.
+And then after that, they do an assignment that builds an Observer or
+Visitor for some contrived problem.
+
+Rarely do students now get close to the silicon of the machine.
+Rarely does the student now find themselves writing code to generate
+a sorted linked list (heap memory allocation) from assembly instructions
+in [SPIM][spim].  When you realize that [variables are a Pattern][eric-pat],
+then you realize what Patterns actually are.
+
+Patterns are cages. They are cages for complexity. That complexity
+that underlies writing even a simple linked list in assembly - its
+all contained within the Pattern of a Linked List. For the Linked List
+or Variable, these are things that we don't think about anymore - their
+complexity has been hidden in the Pattern.  Consider the Function Call:
+preserve the registers that might get clobbered on the stack, put the
+arguments in a specific order on the stack, jump to the address of the
+procedure, check the return value on the agreed upon location in the
+stack, restore the registers, continue on.  All that complexity is now
+hidden behind `func()` in the code.
+
+Much of the simpler instances of complexity have been wrapped up in
+the chosen languages. Function calls, expressions, variables,
+structures and so on. By caging this complexity we are now able to work
+with things that are even _more_ complex than we a few decades ago
+when the ideas of object oriented programming where being bantered 
+about.
+
+So now we take for granted those older Patterns and build larger and
+more complex code. And now, we have bigger cages for that complexity
+that such structure is demanding. And we call it with names like
+Factory, Singleton, Observer, Model, Controller, Flyweight and so on.
+
+By starting out with the Patterns rather than the _problem_ we are
+introducing complexity into the application before the application
+is even defined. This is a *_bad_* thing. It has the next coder
+looking at the code and wondering which cages are empty, and which ones
+will have your hand get bitten off.
+
+[Design Patterns: Elements of Reusable Object-Oriented Software][gof] is
+not a textbook for how to write good software. Nor is it a checklist for
+things that one should have in one's code.  It is a [bestiary][beast]
+of problems and complexity and information about how to build cages
+that have been built time and time again to hold that complexity.
+
+One should not waste one's time building a cage that will never be
+filled. Neither does one go about planning a zoo by building the cages
+and seeing what beasts fit in them afterwards.
+
+Plan the project and build it. And when you find out there's a grizzly
+bit of complexity in the foundations of your code, _then_ build the
+cage for the grizzly. Building grizzly cages in your basement for no
+reason just takes up space and confuses people who might inherit them.
+
+[spim]: http://spimsimulator.sourceforge.net
+[eric-pat]: http://programmers.stackexchange.com/a/219830
+[gof]: https://en.wikipedia.org/wiki/Design_Patterns
+[beast]: https://en.wikipedia.org/wiki/Bestiary
