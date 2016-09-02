@@ -45,9 +45,17 @@ when the ideas of object oriented programming where being bantered
 about.
 
 So now we take for granted those older Patterns and build larger and
-more complex code. And now, we have bigger cages for that complexity
-that such structure is demanding. And we call it with names like
-Factory, Singleton, Observer, Model, Controller, Flyweight and so on.
+more complex code.  These Patterns of old are now things that we
+naturally think of while building a modern program - they are building
+blocks. Yet, despite their nature of building blocks we don't start
+out with a program and say "I should use a variable, its something that
+good programs use." Rather, we think "I need to maintain some state,
+to hold that complexity, I'll use a variable."
+
+Today with Design Patterns, we have bigger cages for that complexity
+that the structure of more complex programs is demanding. And we call
+these cages with names like Factory, Singleton, Observer, Model,
+Controller, Flyweight and so on.
 
 By starting out with the Patterns rather than the _problem_ we are
 introducing complexity into the application before the application
