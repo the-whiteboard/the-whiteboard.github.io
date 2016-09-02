@@ -1,7 +1,8 @@
 ---
 layout: post
-title: That Pattern rant
-categories: pattern
+title: Patterns are not building blocks.
+date:   2016-09-02 08:40:00 -0600
+author:	MichaelT
 ---
 
 ## Patterns are not building blocks.
