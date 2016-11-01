@@ -20,7 +20,7 @@ language came out.  Things change quickly. I look at Java now and
 see it looking like COBOL in another 10 years - I'll still know it.
 
 I've seen C programmers unceremoniously dropped into hundreds of
-thousands of line of Java code and try to write code where method
+thousands of line of Java code and try to write code where every method
 is static.  I've seen COBOL programmers told to port their code to
 Java and write what amounts to COBOL in Java.  The C coder found
 a job supporting some embedded code, and the COBOL coder learned
