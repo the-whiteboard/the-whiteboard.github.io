@@ -12,7 +12,7 @@ large and small levels, we talk about coupling, we talk about performance
 metrics, we talk about "Best Practices.” We talk about style, statefulness,
 paradigm, elegance, smells, and so many different things.
 
-However, we rarely talk about *Reasoning*. It's rarely something mentioned in
+However, we rarely talk about ***Reasoning***. It's rarely something mentioned in
 interviews, code reviews, architectures, patterns, classes, or anywhere outside
 of perhaps formalist maths training.
 
@@ -37,11 +37,11 @@ decisions within the code itself.
 
 Let's step back for a moment though.
 
-What is `Reasoning` to begin with? It's so rarely spoken about that I think it's
+What is ***Reasoning*** to begin with? It's so rarely spoken about that I think it's
 worth giving a clear definition of, such that we may begin to utilize it as a
 skill explicitly - as opposed to by accident or undefined habit.
 
-I would give this definition for `Reasoning` where it relates to logical
+I would give this definition for **Reasoning** where it relates to logical
 analysis:
 
  > Reasoning: The act of mentally deducing by parts, the complete behaviour of a
@@ -49,7 +49,7 @@ analysis:
  > outputs.
 
 By this definition, I would lay claim that any section of code - from a single
-block to an entire system is a `Logical System`. As such, we constantly find
+block to an entire system is a **Logical System**. As such, we constantly find
 ourselves reasoning through these systems - bit by bit - all day every day as
 programmers. I believe the reason this is so infrequently mentioned or spoken of
 is because the act is not only an obvious necessity to complete any given task
@@ -59,7 +59,7 @@ any observer, it has resulted in making one of the key activities we as
 programmers all practice, one which we have nearly no formal or conceptual
 analysis of.
 
-However, with the above simple definition of `Reasoning`, I think we can begin
+However, with the above simple definition of **Reasoning**, I think we can begin
 to construct an entirely new approach to assessing code quality. One that takes
 into account something we do far more frequently than nearly any other
 activity where it regards interacting with code. The best part? While it's
@@ -82,8 +82,8 @@ patterns! These are characteristics of code you will notice, when present affect
 how easily you can reason through it.
 
 Here now we get to the nitty gritty. I would like to list the characteristics I
-have personally found makes code more `Reasonable`, such that I can complete the
-act of `Reasoning` as defined above on the code with greater ease, speed, and
+have personally found makes code more **Reasonable**, such that I can complete the
+act of **Reasoning** as defined above on the code with greater ease, speed, and
 accuracy than code where these characteristics are not present.
 
 * **Small scope**  
@@ -110,7 +110,7 @@ of the original section of code.
 When a code section calls into methods which call into methods which call
 into methods until you have a very high chain of behaviours being executed,
 the code becomes very difficult to reason about. This goes back to the point
-about `Small scope` - each section of code called by a single section is yet
+about **small scope** - each section of code called by a single section is yet
 another piece of the scope you must understand to fully reason about the
 original section of code.
 
