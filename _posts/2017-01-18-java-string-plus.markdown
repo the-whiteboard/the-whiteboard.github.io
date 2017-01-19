@@ -58,7 +58,7 @@ The first thing to notice is the size of the files:
 
 So, lets look at those files with the Java disassembler - [javap][javap].
 
-```
+{% highlight plaintext %}
 ~/De/javastr $ javap -v -c Foo.class 
 Classfile /Users/shagie/Development/javastr/Foo.class
   Last modified Jan 17, 2017; size 412 bytes
@@ -75,7 +75,7 @@ Constant pool:
    #4 = Methodref          #19.#20        // java/io/PrintStream.println:(Ljava/lang/String;)V
    #5 = Class              #21            // Foo
    #6 = Class              #22            // java/lang/Object
-```
+{% endhighlight %}
 
 That list is the start of the constant pool of the class file.
 It is defined in [Section 4.1 of the jvm spec][jvm]:
@@ -88,7 +88,7 @@ two.
 Further down, when we look at the bytecode invoked for the main
 method:
 
-```
+{% highlight plaintext %}
   public static void main(java.lang.String...);
     descriptor: ([Ljava/lang/String;)V
     flags: ACC_PUBLIC, ACC_STATIC, ACC_VARARGS
@@ -101,7 +101,7 @@ method:
          7: invokevirtual #4                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
         10: return
 }
-```
+{% endhighlight %}
 
 You can see the `ldc #2` which is the load constant #2 from the
 constant pool and its right there.  One constant, one instruction.
@@ -109,7 +109,7 @@ constant pool and its right there.  One constant, one instruction.
 
 Looking at Bar.class now,
 
-```
+{% highlight plaintext %}
 Classfile /Users/shagie/Development/javastr/Bar.class
   Last modified Jan 17, 2017; size 593 bytes
   MD5 checksum ef1e0f7d6be2af193a44b83bd97751f6
@@ -125,7 +125,8 @@ Constant pool:
    #4 = String             #22            // foo
    #5 = Methodref          #2.#23         // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
    #6 = String             #24            // bar
-```
+{% endhighlight %}
+
 In here you can see the two string constants `foo` and `bar` in
 slots 4 and 6 of the constant pool.  While I didn't show them all,
 Foo.class had 28 constants and Bar.class ahs 41 constants.  These
@@ -135,7 +136,7 @@ approach.
 
 When looking at the bytecode itself,
 
-```
+{% highlight plaintext %}
   public static void main(java.lang.String...);
     descriptor: ([Ljava/lang/String;)V
     flags: ACC_PUBLIC, ACC_STATIC, ACC_VARARGS
@@ -159,7 +160,7 @@ When looking at the bytecode itself,
         29: invokevirtual #9                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
         32: return
 }
-```
+{% endhighlight %}
 
 you can see the StringBuilder getting created, some stack work with
 the dup, the invocation of init, storing the value, loading it,
