@@ -15,7 +15,7 @@ has a few (I hope - just a few, no more) fields - each of which has a
 name.  The objects are exposed through some endpoint - with a name.
 
 Every library that we use has a name.  There's the joke of the
-[web dev drinking][drink] game:
+[web dev drinking][drinking] game:
 
 1. Think of a noun
 2. Google "<noun>.js"
