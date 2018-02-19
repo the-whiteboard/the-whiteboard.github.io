@@ -15,7 +15,7 @@ there, hook them up with some XML and I'll have a working application."
 All too often I see new coders thinking this is the way to write code.
 I'm going to blame the way Patterns and programming as a whole are
 taught. In an data structures class in today's schooling is often along
-the lines of "this assignment is to write a Factory for a Car class"
+the lines of "this assignment is to write a Builder for a Car class"
 and a successful passing grade depends on the student writing something
 that lets them do `carBuilder.setColor("red").setStyle("sedan").build()`.
 And then after that, they do an assignment that builds an Observer or
